@@ -72,3 +72,16 @@ btn2 = Button(
 btn2.pack()
 
 window.mainloop()
+
+#def show_pie_chart():
+    #win_pie = tk.Toplevel()
+    #win_pie.title('Pie chart')
+    #fig = plt.figure(figsize=(7, 7))
+    #ax = fig.add_subplot()
+    #vals = [23, 16, 21, 18, 22]
+    #x = 'category: \n'
+    #labels = [f'{x}food', f'{x}transport', f'{x}entertainment', f'{x}medicine', f'{x}other']
+    #exp = (0.1, 0.1, 0.1, 0.1, 0.1)
+    #ax.pie(vals, labels=labels, autopct='%.2f', explode=exp, shadow=True)
+    #ax.grid()
+    #plt.show()
